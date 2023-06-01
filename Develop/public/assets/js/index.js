@@ -5,7 +5,8 @@ let newNoteBtn;
 let noteList;
 
 // Gets notes from the db and renders them to the sidebar
-const getAndRenderNotes = () => getNotes().then(renderNoteList);
+const getAndRenderNotes = () => getNotes().then(console.log);
+
 
 if (window.location.pathname === '/notes') {
   noteTitle = document.querySelector('.note-title');
@@ -51,14 +52,14 @@ const saveNote = (note) => {
       return response.json();
     })
     .then((data) => {
-      // Set activeNote to the returned data
-      activeNote = data;
-      // Render the active note
-      renderActiveNote();
-      // Update the note list
-      getAndRenderNotes();
-      console.log('Note saved:', data);
-    })
+        // Set activeNote to the returned data
+        activeNote = data;
+        // Render the active note
+        renderActiveNote();
+        // Update the note list
+        getAndRenderNotes();
+        console.log('Note saved:', JSON.stringify(data));
+      })      
     .catch((error) => {
       console.error('Error saving note:', error);
     });
