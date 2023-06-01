@@ -1,8 +1,8 @@
-#NotePro
+# NotePro
 
 The Note-Taking App is a web application that allows users to create and manage notes. Users can create new notes, view existing notes, edit notes, and delete notes. The app provides a simple and intuitive interface for taking and organizing notes.
 
-##Features
+## Features
 
 Create a new note with a title and content.
 View a list of all saved notes.
@@ -10,14 +10,14 @@ Edit an existing note.
 Delete a note.
 Technologies Used
 
-##The NotePro App is built using the following technologies:
+## The NotePro App is built using the following technologies:
 
 Front-end: HTML, CSS, JavaScript
 Back-end: Node.js, Express.js
 Database: JSON file
 Installation
 
-##To run the NotePro App locally, follow these steps:
+## To run the NotePro App locally, follow these steps:
 
 Clone the repository:
 shell
