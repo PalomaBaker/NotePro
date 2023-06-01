@@ -39,15 +39,16 @@ On the homepage, you can view a list of all saved notes. Click on a note to view
 To create a new note, click the "New Note" button. Enter a title and content for the note, then click "Save" to save the note.
 To edit a note, click on the note from the list. Update the title and content as needed, then click "Save" to save the changes.
 To delete a note, click on the note from the list, then click the "Delete" button.
-Contributing
+
+## Contributing
 
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
 
-License
+## License
 
 This project is licensed under the MIT License.
 
-Contact
+## Contact
 
 If you have any questions or need assistance with the Note-Taking App, please contact paloma.d.baker@gmail.com
 
